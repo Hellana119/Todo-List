@@ -1,0 +1,14 @@
+.flow{
+    height: 500px;
+}
+.tasks{
+    overflow-y: auto;
+    height: 350px;
+}
+.form-control:focus{
+    /* border-color: transparent !important; */
+    outline: none;
+}
+.btn:focus,.form-control:focus{
+    box-shadow: none;
+}
